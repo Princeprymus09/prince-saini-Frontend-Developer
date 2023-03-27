@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  background-color: #000109;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 30px;
+  /* height: 80px; */
+}
+
+.navbar a {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a .selected {
+  /* text-decoration: underline !important; */
+}
+
+.navbar-button {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 8px 10px;
+  float: right;
+  margin: 10px;
+}
+
+.navbar-button:focus {
+  outline: none;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  margin-top: 10px;
+  background-color: #000109;
+  color: white;
+}
+
+.left {
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+}
+
+.right img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search .section .left {
+  flex: 1;
+  text-align: left;
+}
+
+.search .section .right {
+  flex: 1;
+  text-align: right;
+}
+
+.search .section .right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Section 2 styles */
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.card {
+  flex-basis: calc(30% - 50px);
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 0;
+}
+
+/* Section 3 styles */
+.section-3 {
+  padding: 50px;
+  text-align: center;
+}
+
+.section-3 h2 {
+  margin-bottom: 20px;
+}
+
+.section-3 p {
+  margin-bottom: 30px;
+}
+
+.section-3 button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.section-3 button:hover {
+  background-color: #555;
+}
+
+.search .section {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.search .section .react-dropdown-select {
+  width: 150px;
+}
+
+.react-dropdown-select-dropdown {
+  color: #000109;
+}
+
+#loadMore {
+  border: 1px solid;
+  width: fit-content;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.landing-banner {
+  color: white;
+  font-size: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.landing-desc {
+  color: red;
+  margin-left: 30%;
+  font-size: 17px;
+}
+
+.search-input {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.error-msg {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1 {
+    display: block;
+    padding: 20px 30px;
+  }
+
+  .left {
+    margin-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .left h1 {
+    font-size: 18px;
+  }
+
+  .left h3 {
+    font-size: 14px;
+  }
+
+  .landing-banner {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .landing-desc {
+    margin-left: 25px;
+    font-size: 16px;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  .search .section {
+    flex-direction: column;
+    padding: 10px 30px;
+  }
+
+  .search .section .react-dropdown-select {
+    width: 100%;
+  }
+
+  .search-input {
+    margin: 40px 0 20px;
+  }
+
+  .search-btn {
+    width: fit-content;
+    padding: 6px 30px;
+    margin: auto;
+  }
+
+  .search-section {
+    flex-direction: column;
+    padding: 10px 25px;
+  }
+}
