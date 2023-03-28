@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1748a5ac.css",
-    "main.js": "/static/js/main.d33f935c.js",
-    "static/js/787.fc8fe5c4.chunk.js": "/static/js/787.fc8fe5c4.chunk.js",
-    "index.html": "/index.html",
-    "main.1748a5ac.css.map": "/static/css/main.1748a5ac.css.map",
-    "main.d33f935c.js.map": "/static/js/main.d33f935c.js.map",
-    "787.fc8fe5c4.chunk.js.map": "/static/js/787.fc8fe5c4.chunk.js.map"
+    "main.css": "/prince-saini-Frontend-Developer/static/css/main.1748a5ac.css",
+    "main.js": "/prince-saini-Frontend-Developer/static/js/main.f79c405b.js",
+    "static/js/787.fc8fe5c4.chunk.js": "/prince-saini-Frontend-Developer/static/js/787.fc8fe5c4.chunk.js",
+    "index.html": "/prince-saini-Frontend-Developer/index.html",
+    "main.1748a5ac.css.map": "/prince-saini-Frontend-Developer/static/css/main.1748a5ac.css.map",
+    "main.f79c405b.js.map": "/prince-saini-Frontend-Developer/static/js/main.f79c405b.js.map",
+    "787.fc8fe5c4.chunk.js.map": "/prince-saini-Frontend-Developer/static/js/787.fc8fe5c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1748a5ac.css",
-    "static/js/main.d33f935c.js"
+    "static/js/main.f79c405b.js"
   ]
 }
